@@ -1,19 +1,19 @@
-# class Person:
-#     def __init__(self, age = None):
-#         self.__age = age
-#
-#     def set_age(self, ageArgument):
-#         if ageArgument <= 0:
-#             raise ValueError('Возраст должен быть больше нуля')
-#         self.__age = ageArgument
-#
-#     def get_age(self):
-#         return self.__age
-#
-#
-# p = Person()
-# p.set_age(25)
-# print(p.get_age())
+class Person:
+    def __init__(self, age = None):
+        self.__age = age
+
+    def set_age(self, ageArgument):
+        if ageArgument <= 0:
+            raise ValueError('Возраст должен быть больше нуля')
+        self.__age = ageArgument
+
+    def get_age(self):
+        return self.__age
+
+
+p = Person()
+p.set_age(25)
+print(p.get_age())
 # p.set_age(-5)
 
 #_______________________________________________________________________________________________________________________
